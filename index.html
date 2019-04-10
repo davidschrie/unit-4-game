@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="  crossorigin="anonymous"></script>
+    <title>Chrystal Game</title>
+</head>
+<body>
+    
+    <div class="col-12">
+        <div class="row">
+            <div class="col-6 title">
+                <h3>Crystal collector! </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8 instruction">
+                <ul>
+                    <li>You will be given a random number at the start of the game. </li>
+                    <li>There are four chrystals below. By clicking on a chrystal you will add a specific amount of points to your total score. </li>
+                    <li>You win the game if your total score equals the random number. You will lose if your score exceeds the random number.
+                       
+                    </li>
+                    <li>The value of each chrystal is hidden from you until you click on it. </li>
+                    <li>Each time the game starts, both the target score and the value of the chrystal will be randomly generated. </li>
+                    <ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 random">
+                        <h1 id="rand">35</h1>
+                    </div>
+                    <div class="col-2 winloss">
+                        <ul>
+                            <li> Win: <span id="win"></span></li>
+                            <li> Loss: <span id="loss"></span></li>
+                           
+                        </ul>
+                       
+                    </div>
+                </div>
+               
+               
+               
+                <div class="row jewels" >
+                   
+                    <div class="col-1" id="jewel1">
+                    <img src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/8/8d/Daily_Crystal.png/revision/latest?cb=20150825213624">  
+                       
+                    </div>
+                    <div class="col-1" id="jewel2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqu6a_NDMSTun5fdfx1Z4xJp5Jh1nVmgVOsjR5_cXivwQrsx4x">
+                       
+                    </div>
+                    <div class="col-1" id="jewel3">
+                        <img src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/1/1c/2-Star_Crystal.png/revision/latest?cb=20150825213642">
+                       
+                    </div>
+                    <div class="col-1" id="jewel4">
+                        <img src="https://vignette.wikia.nocookie.net/marvel-contestofchampions/images/c/cd/Crystal_alliance.png/revision/latest?cb=20151121233509">
+                       
+                    </div>
+                </div>
+               
+                <div class="row">
+                   
+                    <h3 class="score col-6"> Your Total score is </h3>
+                </div>
+                <div class="row">
+                    <div class="col-4 score">
+                        <h2 id="score">0</h2>
+                    </div>
+                </div>
+               
+            </div>
+           
+<script type="text/javascript" src="assets/game.js"></script>
+</body>
+</html>

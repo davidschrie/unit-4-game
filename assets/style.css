@@ -1,0 +1,94 @@
+
+img {
+    width: 120px;
+}
+
+
+.jewels div{
+min-height:100px;
+min-width:100px;
+background:white;
+margin-left:10px;
+
+}
+.col-12{
+ background: gold;
+ width:100%;
+float:left;
+
+padding:10px;
+}
+.col-1{
+ width:8%;
+float:left;
+
+padding:10px;
+}
+.col-2{
+ width:16%;
+float:left;
+
+padding:10px;
+}
+.col-3{
+ width:24%;
+float:left;
+
+padding:10px;
+}
+.col-4{
+ width:32%;
+float:left;
+padding:10px;
+}
+.col-6{
+ width:25%;
+float:left;
+padding:10px;
+background-color: aquamarine;
+}
+.col-8{
+ width:30%;
+float:left;
+background-color: teal;
+
+padding:10px;
+}
+.row{
+width:100%;
+overflow:hidden;
+padding:10px;
+}
+
+.instruction{
+color:paleturquoise;
+font-weight:bold;
+font-size:18px;
+
+
+background:lightcoral;
+}
+
+.instruction ul{
+list-style:none;
+}
+.instruction ul li{
+margin-top:10px;
+}
+.title{
+background:darkturquoise;
+color:white;
+font-size:26px;
+
+}
+.random{
+background:green;
+}
+.winloss{
+background:snow;
+
+}
+.score{
+color:white;
+background:teal;
+}
