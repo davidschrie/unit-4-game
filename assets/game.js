@@ -1,10 +1,10 @@
-  /* setting random value for each jewel javascript Math.random() function is used for this purpose */
+  /* setting random value for each jewel javascript Math.random() 
   var jewel1 = Math.floor((Math.random() * 12) + 1);
   var jewel2 = Math.floor((Math.random() * 12) + 1);
   var jewel3 = Math.floor((Math.random() * 12) + 1);
   var jewel4 = Math.floor((Math.random() * 12) + 1);
  
-  /* setting up necessary global variable */
+ 
   var score = 0;
   var win = 0;
   var loss = 0;
@@ -12,7 +12,7 @@
   /* setting random vaiable which is compared with score */
   var rand = Math.floor((Math.random() * 120) + 19);
  
-  /* updating score. Please see update score fuinction */
+  /* updating score.
   update_score(0);
  
   /* setting intial information using jquery basic selector and html() */
