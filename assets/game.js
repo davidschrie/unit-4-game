@@ -1,4 +1,4 @@
-  /* setting random value for each jewel javascript Math.random() 
+//    setting random value for each jewel javascript Math.random() 
   var jewel1 = Math.floor((Math.random() * 12) + 1);
   var jewel2 = Math.floor((Math.random() * 12) + 1);
   var jewel3 = Math.floor((Math.random() * 12) + 1);
